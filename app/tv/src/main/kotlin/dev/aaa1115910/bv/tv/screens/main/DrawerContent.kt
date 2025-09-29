@@ -128,8 +128,8 @@ fun DrawerContent(
         listOf(
             DrawerItem.Search,
             DrawerItem.Home,
-            DrawerItem.UGC,
-            DrawerItem.PGC,
+            // DrawerItem.UGC,
+            // DrawerItem.PGC,
         ).forEach { item ->
             IconButton(
                 modifier = Modifier
@@ -176,10 +176,10 @@ enum class DrawerItem(
     val displayIcon: ImageVector
 ) {
     User(displayName = "点击登录", displayIcon = Icons.Default.AccountCircle),
-    Search(displayName = "搜索", displayIcon = Icons.Default.Search),
+    //Search(displayName = "搜索", displayIcon = Icons.Default.Search),
     Home(displayName = "首页", displayIcon = Icons.Default.Home),
-    UGC(displayName = "UGC", displayIcon = Icons.Default.OndemandVideo),
-    PGC(displayName = "PGC", displayIcon = Icons.Default.Movie),
+    //UGC(displayName = "UGC", displayIcon = Icons.Default.OndemandVideo),
+    //PGC(displayName = "PGC", displayIcon = Icons.Default.Movie),
     Settings(displayName = "设置", displayIcon = Icons.Default.Settings), ;
 }
 
