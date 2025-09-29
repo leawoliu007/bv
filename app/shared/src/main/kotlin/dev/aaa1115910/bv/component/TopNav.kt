@@ -125,8 +125,8 @@ interface TopNavItem {
 }
 
 enum class HomeTopNavItem(private val displayName: String) : TopNavItem {
-    Recommend("推荐"),
-    Popular("热门"),
+    // Recommend("推荐"),
+    // Popular("热门"),
     Dynamics("动态"),
     User("个人");
 
